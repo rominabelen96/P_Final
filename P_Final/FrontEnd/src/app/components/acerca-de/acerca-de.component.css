@@ -1,0 +1,36 @@
+.row{
+    padding: 20px;
+}
+div{
+    background-color: rgb(28, 124, 148);
+}
+
+h1, p {
+    text-align: center;
+    color: azure;
+}
+
+/*sytle de foto de perfil */
+@media(min-width:576px){
+    #fotoperfil{
+        position: absolute;
+        /*height: 100px;*/
+        width: 14%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px grey;
+        left: 3%;
+        top: 400px;
+    }
+}
+
+@media(max-width:575px){
+    #fotoperfil{
+        position: absolute;
+        height: 100px;
+        width: 30%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px grey;
+        left: 33%;
+        top: 950px;
+    }
+}
